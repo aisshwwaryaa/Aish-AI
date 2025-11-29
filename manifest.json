@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Aish's Reasoning AI Agent",
+  "version": "1.0",
+  "description": "Reasoning agent with local semantic + keyword tools (rule-based planner).",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Aish AI Agent"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab"],
+  "host_permissions": ["<all_urls>"]
+}
